@@ -1,0 +1,37 @@
+body {
+    font-family: system-ui;
+    background-image: url('https://vintom.co.jp/wp-content/uploads/2016/12/Under-Construction-Wallpaper-1024x576.jpg');
+    background-size: 100vw 100vh;
+    height: 100vh;
+    color: black;
+  }
+  
+  .menu {
+    background-color: grey;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .menu li {
+    list-style: none;
+  }
+  
+  .site-subtitle,
+  .site-title {
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(1,1,1,1.5);
+    color: black; text-shadow: #ffc61a 0.0em 0.0em 0.1em
+  }
+  
+  a {
+    text-decoration: none;
+    color:  #ffc61a;
+    
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
